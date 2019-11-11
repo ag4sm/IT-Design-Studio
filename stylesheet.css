@@ -1,0 +1,103 @@
+html {
+	min-height:100%;
+}
+
+body {
+	background:linear-gradient(#ffffff,#999999);
+	margin:0;
+	padding:0;
+	}
+	
+header {
+	text-align:center;
+	border-bottom:0.7em solid #e6e600;
+	}
+
+nav {
+	display:inline-block;
+	background-color:#b3e6ff;
+	border-radius:10px;
+	border:1px solid #2369db;
+	position:relative;
+	margin-top:2em;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+/*	margin-left:28em;
+	*margin-right:28em;*/
+}	
+
+nav a {
+	text-decoration:none;
+	text-align:center;
+}
+
+nav ul {
+	list-style-type:none;
+	display:inline;
+	margin:0;
+	padding:0 0.5em 2em 1em;
+}
+
+nav ul li {
+	float:left;
+	margin:0 1em 0 2em;
+}
+	
+label {
+	font-size:80%;
+}
+
+h2 {
+	text-align:center;
+	margin-top:4em;
+	margin-bottom:3em;
+}
+
+h5 {
+	padding-top:0.5em;
+	margin-top:0;
+}
+
+#left {
+	float:left;
+	display:block;
+	width:30%;
+	padding-left:2em;
+	margin:1em 0 0 1em;
+}
+
+#center {
+	display:inline-block;
+	width:30%;
+	margin:1em 0 0 1em;
+}
+
+#right {
+	display:inline-block;
+	float:right;
+	width:30%;
+	margin:1em 0 0 0;
+}
+
+section {
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	
+p.buttons {
+	padding-top: 3em;
+	padding-left: 2em;
+	clear:both;
+}
+	
+form input:focus {
+	background-color:#f5f5dc;
+}
+
+table, th, td{
+	border: 1px solid black;
+	padding:  3px;
+	border-collapse: collapse;
+}
